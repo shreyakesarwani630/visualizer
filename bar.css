@@ -1,0 +1,39 @@
+.bar{
+    border-radius:5px 5px 0 0 ;
+    width: 25px;
+    margin: 10px;
+    margin-right: 10px;
+
+}
+.text{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    transform: rotate(-90deg);
+
+    outline: none;
+}
+.quantity-btn{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(241, 55, 3);
+    margin:1px;
+
+}
+
+.quantity-btn:hover{
+    opacity: 0.5;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button{
+    -webkit-appearance:  none;
+    margin: 0;
+
+}
+input[type='number']{
+    -moz-appearance: textfield;
+
+
+}
